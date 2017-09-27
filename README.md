@@ -24,3 +24,13 @@
 <br>
 *The graphical part of the program is based on jsp technology
 
+
+
+<br>
+<br>
+CSS files src/main/resources
+<br>
+JSP files src/main/WEB-INF/view
+<br>
+JAva files src/main/java
+
