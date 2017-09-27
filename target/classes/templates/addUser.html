@@ -1,0 +1,19 @@
+ <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form:form method ="post" modelAttribute="login">
+		
+		<form:errors path="*"></form:errors>
+		<form:label path="password">FirstName</form:label>
+		<form:password path="password" id="password"/>
+		<form:label path="email">Email</form:label>
+		<form:input type="email" path="email" id="email"/>
+		<input type="submit">Wyslij</input>
+	</form:form>
+</body>
+</html>
